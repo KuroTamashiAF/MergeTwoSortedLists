@@ -1,0 +1,31 @@
+#include <iostream>
+#include <list>
+using namespace std;
+
+
+struct ListNode {
+	int val;
+	ListNode* next;
+	ListNode() : val(0), next(nullptr) {}
+	ListNode(int x) : val(x), next(nullptr) {}
+	ListNode(int x, ListNode* next) : val(x), next(next) {}
+
+};
+
+class Solution {
+public:
+	ListNode* mergeTwoLists(ListNode* list1, ListNode* list2) {
+
+	}
+};
+
+
+
+
+int main()
+{
+	ListNode list1(1,3,4 );
+	ListNode list2;
+
+	return 0;
+}
