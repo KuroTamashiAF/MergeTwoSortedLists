@@ -16,7 +16,7 @@ class Solution {
 public:
 	ListNode* mergeTwoLists(ListNode* list1, ListNode* list2) 
 	{
-		ListNode* current = new ListNode();                 
+		ListNode* current = new ListNode(0);                 
 		ListNode* head = current;                            
 		while (list1 != NULL && list2 != NULL)               
 		{
@@ -44,7 +44,3 @@ public:
 
 
 
-int main()
-{
-	
-}
